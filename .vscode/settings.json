@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./proyecto_wix_01/mi_site01",
+        "./proyecto_wix_01/mi_site01/app1"
+    ]
+}
