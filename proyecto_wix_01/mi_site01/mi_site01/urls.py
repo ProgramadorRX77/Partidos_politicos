@@ -23,5 +23,6 @@ urlpatterns = [
     path('api/', include('app1.urls')),
     path('api/partidos/', views.lista_partidos, name='lista_partidos'),
     path('app1/', views.lista_partidos, name="partidos"),
+    path('app1/paginas/', views.view_home, name="home")
 ]
 
